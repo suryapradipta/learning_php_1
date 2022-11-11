@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p>test -- remote</p>
+    <p>test -- local</p>
 </body>
 </html>
