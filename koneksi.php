@@ -1,11 +1,8 @@
 <?php 
-$koneksi = mysqli_connect("localhost","root","","malasngoding");
+// isi nama host, username mysql, dan password mysql anda
+$host = mysql_connect("localhost","root","",);
  
-
-// Note: Kalo database ga kebaca, erornya ga jalan
-// Check connection
-if (mysqli_connect_errno()){
-	echo "Koneksi database gagal : " . mysqli_connect_error();
-}
+// isikan dengan nama database yang akan di hubungkan
+$db = mysql_select_db("malasngoding");
  
 ?>
