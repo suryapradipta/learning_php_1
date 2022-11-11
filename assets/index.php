@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    #--local comment
     <p>test -- local</p>
 </body>
 </html>
